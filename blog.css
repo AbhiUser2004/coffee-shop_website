@@ -1,0 +1,223 @@
+*{
+    padding: auto;
+margin: auto;
+
+}
+body{
+  background-image: url(co.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  background-repeat:no-repeat ;
+  
+}
+.nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding:0%;
+    display: flex; 
+    justify-content: center;
+
+  }
+  
+  /* Style each list item */
+  .nav ul li {
+    margin: 0 15px;
+     /* Space between items */
+  }
+  
+  /* Style the links inside the navbar */
+  .nav ul li a {
+    display: block;
+    display: flex;
+    float: left;
+    color: #fffdfd; /* Text color */
+    text-align: center;
+    padding: 15px 20px;
+    margin-bottom: 10%;
+    text-decoration: none;
+  }
+  .nav ul li a:hover {
+     background-color: #f4081c;
+     color: #fdfafa; /* Change color on hover */
+    border-radius: 10px; /* Add underline on hover */
+}
+  h1{
+    text-align: center;
+    text-shadow: 2px 4px 4px #eeeff0;
+   padding-top: 50px;
+    font-size: 40px;
+    color: #40160a;
+
+  }
+  p{
+   
+    margin-right: 60%;
+    margin-left: 1%;
+    color: #fff9fa;
+    margin-top: 8%;
+    font-family: sans-serif;
+  }
+  .in{
+    text-align: center;
+    padding-bottom: 7px;
+  }
+  input{
+    text-align: center;
+    border-radius: 10px;
+  }
+  .bu{
+    text-align: center;
+  }
+ button{
+    text-align: center;
+    border-radius: 10px;
+  }
+  .bu :hover{
+    background: #080808;
+    color: #f4081c;
+  }
+  *{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+  }
+  /*product part*/
+
+  .head h2 {
+    text-align: center;
+    margin-top: 20%;
+    padding-top: 1%;
+    padding-bottom: 5%;
+  }
+  
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 equal columns */
+    gap: 25px;
+    width: 80%;
+    margin-left: 10%;
+    padding-bottom: 3%;
+}
+
+.grid-item {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    display: flex; /* Flexbox for centering content */
+    flex-direction: column; /* Stack vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    text-align: center; /* Center text */
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    max-width: 300px; /* Max width for the image */
+    margin-bottom: 15px;
+}
+
+.grid-item h3 {
+    padding: 10px 0;
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+    padding-bottom: -1.5px;
+}
+
+.grid-item p {
+    color: hsl(0, 2%, 39%);
+    font-size: 1em;
+    text-align: center;
+    margin: 10px 0;
+}
+/*extra point*/
+.fotter p :hover{
+  background-color: white;
+  color: yellow;
+  border-radius: 10px;
+}
+.fotter p:hover{
+  background-color: rgb(202, 6, 6);
+ color: #f7f1f4;
+border-radius: 9px;
+}
+
+.grid-item:hover {
+    transform: translateY(-5px);
+}
+/**login_page**/
+
+.login-container {
+  width: 100%;
+  max-width: 400px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  
+  margin-left: 70%;/* Border shadow */
+}
+
+.login-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  color: #333;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #666;
+}
+
+.input-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-btn {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-btn:hover {
+  background-color: #45a049;
+}
+
+/* Add some responsive design */
+@media (max-width: 600px) {
+  .login-container {
+      padding: 15px;
+  }
+}
+/***address*/
+.address p{
+  color: black;
+  margin-top: -18%;
+}
+.way p{
+  margin-top: -1%;
+}
+/**footer**/
